@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-weight: 100;
+    background-color: rgb(219, 189, 146);
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+div.wrap {
+    width: 40vw;
+    height: 80vh;
+    border: 2px solid black;
+    margin: 15px auto;
+    padding: 20px;
+    /* background-color: #646863; */
+    background-image: url(img/papyrus.jpg);
+    background-size: contain;
+    background-position: center;
+    overflow: auto;
+}
+
+input.search {
+    text-align: center;
+    width: 60%;
+    margin: 5px 15px;
+    outline: none;
+}
+
+input.input {
+    text-align: center;
+    width: 60%;
+    margin: 5px 15px;
+    outline: none;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    width: 20%;
+}
+
+.wrap h3 {
+    text-align: center;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.btn-light {
+    padding: 0px 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.not-focusable:focus {
+    outline: none;
+    box-shadow: none;
+}
