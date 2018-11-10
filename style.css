@@ -8,7 +8,6 @@ body {
     font-family: 'Courgette', cursive;
     color: white;
     font-weight: 100;
-    background-color: rgb(219, 189, 146);
 }
 
 h2 {
@@ -22,11 +21,11 @@ div.wrap {
     border: 2px solid black;
     margin: 15px auto;
     padding: 20px;
-    /* background-color: #646863; */
-    background-image: url(img/papyrus.jpg);
-    background-size: contain;
+    background-image: linear-gradient( to right, rgb(1, 121, 251), white);
     background-position: center;
     overflow: auto;
+    border-radius: 25px;
+    box-shadow: gray 10px 0px 10px 3px;
 }
 
 input.search {
@@ -68,4 +67,17 @@ button {
 .not-focusable:focus {
     outline: none;
     box-shadow: none;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    position: relative;
+}
+
+li {
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 1px;
 }

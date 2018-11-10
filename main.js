@@ -67,21 +67,3 @@ const searchTask = (e) => {
 
 inputSearch.addEventListener('input', searchTask);
 form.addEventListener('submit', addTask)
-
-
-// const removeTask = (e) => {
-//     e.target.parentNode.remove();
-//     const index = e.target.parentNode.dataset.key;
-
-//     tasksList.splice(index, 1);
-//     // tasksList[index].style.textDecoration = 'line-through';
-//     tasksNumber.textContent = tasksListItems.length;
-//     renderList();
-//     doneTasks.push(task);
-//     ulDone.appendChild(task);
-//     const titleTask = task.innerHTML;
-//     task.className = "done-task";
-
-//     task.innerHTML = titleTask + '<button type="button" class="btn btn-light btn-sm not-focusable">usuń</button>';
-//     return doneTasks;
-// }
